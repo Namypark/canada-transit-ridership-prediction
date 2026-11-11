@@ -2,7 +2,7 @@
 
 CSCN8010 Extra-Credit Project
 
-**Student:** Nnamdi
+**Student:** Nnamdi Ikengah
 
 **Student ID:** 9085175
 
