@@ -1,0 +1,51 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Passenger bus and urban transit statistics, by the North American Industry Classification System (NAICS)","23100251","408-0013","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310025101",1;2;3;4,"CURRENT - a cube available to the public and that is current","Monthly","2017-01-01","2026-08-01","3",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","North American Industry Classification System (NAICS)",,""
+"3","Total revenue and total passenger trips",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","[11124]","1","","",,
+"1","Atlantic","","2","1","",,
+"1","Quebec and Ontario","","3","1","",,
+"1","Prairies, British Columbia and Territories","","4","1","",,
+"2","Urban transit systems","[485110]","1","","",,
+"2","Interurban and rural bus transportation","[485210]","2","","",,
+"3","Total revenue, excluding subsidies","","1","","",5,
+"3","Total passenger trips","","2","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"2745","Monthly Passenger Bus and Urban Transit Survey"
+
+"Subject Code","Subject Name"
+"23","Transportation"
+
+"Note ID",Note
+1,"The sampled companies included in this survey account for at least 75% of provincial revenues for Canadian urban and inter-city transit."
+2,"For data prior to January 2017, please refer to table 23-10-0078."
+3,"This table currently includes national (both revenues and passenger trips) and regional (only revenues) urban transit statistics. At a future date, additional regional urban transit and national intercity statistics may be published."
+4,"On May 5, 2017, the data have been corrected for reference period January 2017."
+5,"One-time payments from secondary and post-secondary institutions for academic-year student passes are typically reported as revenue during the early fall and early winter months."
+
+"Correction ID","Correction Date","Correction Note"
+"1064","2018-07-31","On August 1, 2018, certain data points have been suppressed because of issues with data quality for May 2018.<br><br>",
+
